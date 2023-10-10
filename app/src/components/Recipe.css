@@ -1,0 +1,109 @@
+/* RecipeForm.css */
+
+body {
+  font-family: "Lora", serif;
+  color: #fff;
+  padding: 20px;
+  background-image: url("https://img.freepik.com/vetores-premium/padrao-perfeito-de-fast-food-no-estilo-doodle_650511-939.jpg?w=2000");
+  background-size: cover;
+}
+
+.container {
+  margin: 150px auto;
+  text-align: center;
+  width: 500px;
+  display: flex;
+  justify-content: center; /* Horizontally center the content */
+  align-items: center;
+  border-radius: 8px;
+  border: 1px solid white;
+  box-shadow: 0px 0px 10px #fff;
+  background-color: rgb(29, 28, 34);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  color: white;
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"] {
+  caret-color: red;
+  width: 200px;
+  height: 10px;
+  padding: 5px;
+  padding-left: 20px;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  background-color: #fff;
+}
+
+.add-step-button {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.add-step-button:hover {
+  background-color: gray;
+}
+
+button[type="submit"] {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: gray;
+}
+
+.recipe-card {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.recipe-card h2 {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.recipe-card h3 {
+  color: white;
+  font-size: 18px;
+}
+
+.recipe-card p {
+  color: white;
+  margin-bottom: 5px;
+}
+
+.recipe-card ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.recipe-card li {
+  color: white;
+}
